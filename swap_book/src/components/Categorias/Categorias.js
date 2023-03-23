@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './NavBar/categorias.css'
+import '../Categorias/categorias.css'
 import { AiFillHeart } from 'react-icons/ai'
 
 function Categorias() {

@@ -1,6 +1,7 @@
-import CarouselFadeExample from './components/Carousel'
-import Categorias from './components/Categorias.js'
-import Navbar from './components/NavBar/Navbar'
+import Cards from './components/Cards/Cards.js'
+import CarouselFadeExample from './components/Carousel/Carousel.js'
+import Categorias from './components/Categorias/Categorias.js'
+import Navbar from './components/NavBar/Navbar.js'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <CarouselFadeExample />
       <Categorias />
+      <Cards />
     </div>
   )
 }
